@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="80.0" stylesheets="@../css/WorkRoomPane.css" prefWidth="216.6" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="roomvbox"   prefHeight="80.0" prefWidth="216.6" styleClass="roomVBox" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="8.0">
+         <children>
+            <Label fx:id="roomlabel1" alignment="CENTER" prefHeight="40.0" prefWidth="217.0" text="房间号：  A3201" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin></Label>
+            <Label fx:id="roomlabel2" alignment="CENTER" prefHeight="25.0" prefWidth="217.0" text="床位数：  6" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label fx:id="roomlabel3" alignment="CENTER" prefHeight="25.0" prefWidth="217.0" text="可用：2" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="1.0" />
+               </VBox.margin></Label>
+         </children>
+         <!--<HBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
+         </HBox.margin>-->
+      </VBox>
+   </children>
+</fx:root>

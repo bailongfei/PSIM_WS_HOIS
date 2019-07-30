@@ -1,0 +1,23 @@
+.backagecolock{
+    -fx-background-color: rgb(58,58,58);
+}
+.imageAnchorpane1{
+    -fx-background-color: #6DB1EB;
+}
+.imageAnchorpane2{
+     -fx-background-color: #a0ebcd;
+ }
+.imageAnchorpane3{
+    -fx-background-color: rgb(67,157,68);
+}
+#pane_pane {
+    -fx-background-radius: 10px;
+    -fx-border-width: 10px;
+    -fx-border-radius: 1px;
+}
+.loginButtonCover{
+    -fx-background-color: rgba(0,0,0,.0);
+}
+.loginButtonCover:hover{
+    -fx-background-color: rgba(173, 173, 173, 0.57);
+}

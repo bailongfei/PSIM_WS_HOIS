@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SqlServer">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="CSIM_JJ_NEW">
+      <ObjectId>5</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="CSIM_Zhang">
+      <ObjectId>6</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="PSIM_WS_Maternity">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="9" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="10" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="11" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="12" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="13" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="14" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="15" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="16" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="17" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="18" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="19" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-07-18.08:40:47.047</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="20" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="21" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="22" parent="19" name="Basic_Bed">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.917</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.917</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="19" name="Basic_Display">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.997</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35.003</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="19" name="Basic_DisplayType">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:35</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="19" name="Basic_Place">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.803</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.910</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="19" name="Basic_Puerpaer">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:35.007</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35.010</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="19" name="Basic_staff">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.943</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.997</ModifiedTimestamp>
+    </table>
+    <column id="28" parent="22" name="Bed_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="22" name="Bed_Name">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="30" parent="22" name="Bed_Status">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__Basic_Bed__Bed_S__3C69FB99</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>varchar(4 char)|0s</DataType>
+    </column>
+    <column id="31" parent="22" name="Place_ID">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="32" parent="22" name="PK__Basic_Be__04E78215D3D35E6E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Bed_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="33" parent="22" name="PK__Basic_Be__04E78215D3D35E6E">
+      <ObjectId>997578592</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:34.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.937</ModifiedTimestamp>
+      <ColNames>Bed_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_Be__04E78215D3D35E6E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="34" parent="22" name="DF__Basic_Bed__Bed_S__3C69FB99">
+      <ObjectId>1013578649</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.937</ModifiedTimestamp>
+      <ColNames>Bed_Status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <column id="35" parent="23" name="Display_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="23" name="Display_Name">
+      <Position>2</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="23" name="Display_Type">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__Basic_Dis__Displ__44FF419A</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="23" name="Display_Title">
+      <Position>4</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="39" parent="23" name="Display_Scroll_Text">
+      <Position>5</Position>
+      <DataType>varchar(120 char)|0s</DataType>
+    </column>
+    <column id="40" parent="23" name="Display_IP">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="41" parent="23" name="Display_Port">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="42" parent="23" name="Display_Note">
+      <Position>8</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="43" parent="23" name="Display_Status">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="44" parent="23" name="PK__Basic_Di__39D60849E8F9963D">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Display_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="45" parent="23" name="index_Display_IP">
+      <Position>2</Position>
+      <ColNames>Display_IP</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="23" name="PK__Basic_Di__39D60849E8F9963D">
+      <ObjectId>1141579105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:34.997</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.997</ModifiedTimestamp>
+      <ColNames>Display_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_Di__39D60849E8F9963D</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="47" parent="23" name="index_Display_IP">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:35</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35</ModifiedTimestamp>
+      <ColNames>Display_IP</ColNames>
+      <UnderlyingIndexName>index_Display_IP</UnderlyingIndexName>
+    </key>
+    <default id="48" parent="23" name="DF__Basic_Dis__Displ__44FF419A">
+      <ObjectId>1157579162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.997</ModifiedTimestamp>
+      <ColNames>Display_Type</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <column id="49" parent="24" name="DisplayType_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="24" name="DisplayType_Status">
+      <Position>2</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="24" name="PK__Basic_Di__FEFA4E9D7F5D11FF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DisplayType_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="24" name="PK__Basic_Di__FEFA4E9D7F5D11FF">
+      <ObjectId>1205579333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:35.003</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35.003</ModifiedTimestamp>
+      <ColNames>DisplayType_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_Di__FEFA4E9D7F5D11FF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="25" name="Place_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="25" name="Place_NO">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="55" parent="25" name="Place_Name">
+      <Position>3</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="25" name="Place_Type">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__Basic_Pla__Place__37A5467C</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="25" name="Place_Flag">
+      <Position>5</Position>
+      <DataType>varchar(8 char)|0s</DataType>
+    </column>
+    <column id="58" parent="25" name="Place_Note">
+      <Position>6</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="59" parent="25" name="Place_Status">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__Basic_Pla__Place__38996AB5</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="25" name="District_ID">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__Basic_Pla__Distr__398D8EEE</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="61" parent="25" name="Parent_Place_ID">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="62" parent="25" name="Create_User_ID">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="63" parent="25" name="Create_User_Time">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="64" parent="25" name="PK__Basic_Pl__D5C5153C6134A5ED">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Place_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="65" parent="25" name="index_Parent_Place_ID">
+      <Position>2</Position>
+      <ColNames>Parent_Place_ID</ColNames>
+    </index>
+    <key id="66" parent="25" name="PK__Basic_Pl__D5C5153C6134A5ED">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:34.890</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.890</ModifiedTimestamp>
+      <ColNames>Place_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_Pl__D5C5153C6134A5ED</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="67" parent="25" name="DF__Basic_Pla__Place__37A5467C">
+      <ObjectId>933578364</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.890</ModifiedTimestamp>
+      <ColNames>Place_Type</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="68" parent="25" name="DF__Basic_Pla__Place__38996AB5">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.893</ModifiedTimestamp>
+      <ColNames>Place_Status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="69" parent="25" name="DF__Basic_Pla__Distr__398D8EEE">
+      <ObjectId>965578478</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.897</ModifiedTimestamp>
+      <ColNames>District_ID</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <column id="70" parent="26" name="Puerpaer_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="26" name="Puerpaer_Name">
+      <Position>2</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="26" name="Puerpaer_Sex">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__Basic_Pue__Puerp__4AB81AF0</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="73" parent="26" name="Puerpaer_Age">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="74" parent="26" name="Bed_ID">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="26" name="DisplayType_ID">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="26" name="Custom_Type">
+      <Position>7</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+    </column>
+    <column id="77" parent="26" name="Custom_Broadcast">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__Basic_Pue__Custo__4BAC3F29</DefaultConstraintName>
+      <DefaultExpression>&apos;请X到护士台&apos;</DefaultExpression>
+      <DataType>varchar(12 char)|0s</DataType>
+    </column>
+    <column id="78" parent="26" name="Puerpaer_Status">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__Basic_Pue__Puerp__4CA06362</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="79" parent="26" name="PK__Basic_Pu__C72DF05BF2EABFF5">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Puerpaer_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="80" parent="26" name="Index_Puerpaer_Sex">
+      <Position>2</Position>
+      <ColNames>Puerpaer_Sex</ColNames>
+    </index>
+    <key id="81" parent="26" name="PK__Basic_Pu__C72DF05BF2EABFF5">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:35.007</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:35.007</ModifiedTimestamp>
+      <ColNames>Puerpaer_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_Pu__C72DF05BF2EABFF5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="82" parent="26" name="DF__Basic_Pue__Puerp__4AB81AF0">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:35.007</ModifiedTimestamp>
+      <ColNames>Puerpaer_Sex</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="83" parent="26" name="DF__Basic_Pue__Custo__4BAC3F29">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:35.007</ModifiedTimestamp>
+      <ColNames>Custom_Broadcast</ColNames>
+      <DefaultExpression>&apos;请X到护士台&apos;</DefaultExpression>
+    </default>
+    <default id="84" parent="26" name="DF__Basic_Pue__Puerp__4CA06362">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:35.007</ModifiedTimestamp>
+      <ColNames>Puerpaer_Status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <column id="85" parent="27" name="Staff_ID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="27" name="Staff_Code">
+      <Position>2</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="27" name="Staff_Name">
+      <Position>3</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="27" name="Staff_Tel">
+      <Position>4</Position>
+      <DataType>varchar(16 char)|0s</DataType>
+    </column>
+    <column id="89" parent="27" name="Staff_Title">
+      <Position>5</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="90" parent="27" name="Staff_LoginName">
+      <Position>6</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="27" name="Staff_password">
+      <Position>7</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="27" name="Staff_Photo_Address">
+      <Position>8</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+    </column>
+    <column id="93" parent="27" name="Staff_Note">
+      <Position>9</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+    </column>
+    <column id="94" parent="27" name="Staff_Status">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__Basic_sta__Staff__3F466844</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="27" name="Staff_Type">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__Basic_sta__Staff__403A8C7D</DefaultConstraintName>
+      <DefaultExpression>1</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="27" name="District_ID">
+      <Position>12</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="97" parent="27" name="PK__Basic_st__32D1F3C33EA7B55A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Staff_ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="98" parent="27" name="index_Staff_Code">
+      <Position>2</Position>
+      <ColNames>Staff_Code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="99" parent="27" name="index_Staff_LoginName">
+      <Position>3</Position>
+      <ColNames>Staff_LoginName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="27" name="PK__Basic_st__32D1F3C33EA7B55A">
+      <ObjectId>1045578763</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-07-17.23:03:34.943</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.943</ModifiedTimestamp>
+      <ColNames>Staff_ID</ColNames>
+      <UnderlyingIndexName>PK__Basic_st__32D1F3C33EA7B55A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="101" parent="27" name="index_Staff_Code">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.977</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.977</ModifiedTimestamp>
+      <ColNames>Staff_Code</ColNames>
+      <UnderlyingIndexName>index_Staff_Code</UnderlyingIndexName>
+    </key>
+    <key id="102" parent="27" name="index_Staff_LoginName">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2019-07-17.23:03:34.993</CreatedTimestamp>
+      <ModifiedTimestamp>2019-07-17.23:03:34.993</ModifiedTimestamp>
+      <ColNames>Staff_LoginName</ColNames>
+      <UnderlyingIndexName>index_Staff_LoginName</UnderlyingIndexName>
+    </key>
+    <default id="103" parent="27" name="DF__Basic_sta__Staff__3F466844">
+      <ObjectId>1061578820</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.943</ModifiedTimestamp>
+      <ColNames>Staff_Status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+    <default id="104" parent="27" name="DF__Basic_sta__Staff__403A8C7D">
+      <ObjectId>1077578877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-07-17.23:03:34.943</ModifiedTimestamp>
+      <ColNames>Staff_Type</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+    </default>
+  </database-model>
+</dataSource>

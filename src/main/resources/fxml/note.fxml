@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="32.0" prefWidth="256.0" type="AnchorPane" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labelPC" alignment="CENTER" contentDisplay="TOP" prefHeight="32.0" prefWidth="256.0" style="-fx-border-color: #e50505;" text="07/2293 张三" textFill="#e50505" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Microsoft YaHei" size="32.0" />
+         </font></Label>
+   </children>
+</fx:root>

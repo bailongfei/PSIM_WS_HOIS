@@ -1,0 +1,79 @@
+.worktop{
+    /*-fx-background-color: #6DB1EB;*/
+    -fx-background-color: rgb(100, 137, 180);
+}
+.buttonright{
+    -fx-background-color: rgba(14, 220, 217, 0.99);
+    /*-fx-background-color: rgba(8, 177, 217, 0.64);*/
+}
+.buttonright:hover{
+    -fx-background-color: rgb(133, 180, 23);
+}
+.textPane{
+    -fx-background-color: rgba(136, 238, 255, 0.36);
+}
+.cxbtn {
+    /*-fx-background-color: #3fb739;*/
+    -fx-background-color: rgb(67,157,68);
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+
+.cxbtn:hover {
+    -fx-background-color: rgb(171, 221, 24);
+    -fx-text-fill: white;
+}
+.boxbtn{
+    -fx-background-color: #dedede;
+}
+
+/*
+#gdsz { !*设置背景颜色渐变*!
+    -fx-background-color: linear-gradient(to right, #00fffc, #fff600); !*设置圆角*!
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+    !*-jfx-button-type: RAISED;*!
+}*/
+#gdsz {
+    -fx-background-color: #59dc54;
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+
+#gdsz:hover {
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+}
+
+.syla1,.syla2,.syla3,.syla4{
+    -fx-background-color: #59dc54;
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}
+.syla1:hover{
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}
+.syla2:hover{
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}
+.syla3:hover{
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}
+.syla4:hover{
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}

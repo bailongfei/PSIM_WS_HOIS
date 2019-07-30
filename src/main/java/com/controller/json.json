@@ -1,0 +1,149 @@
+{
+  "result": "1",
+  "resultInfo": "服务调用成功！",
+  "data": [
+    {
+      "bed_ID": 1,
+      "bed_Name": "01",
+      "bed_Status": "0",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "破水，正在滴注催产素",
+      "puerpaer_Name": "张华",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 2,
+      "bed_Name": "02",
+      "bed_Status": "0",
+      "custom_Type": "自定义状态1",
+      "displayStatus": 0,
+      "displayType_Status": "宫口未开，滴注催产素",
+      "puerpaer_Name": "李华",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 3,
+      "bed_Name": "03",
+      "bed_Status": "0",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "宫口开全，准备顺产",
+      "puerpaer_Name": "张晓",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 4,
+      "bed_Name": "04",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 5,
+      "bed_Name": "05",
+      "bed_Status": "1",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "破水，正在滴注催产素",
+      "puerpaer_Name": "额外额外",
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 6,
+      "bed_Name": "06",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 43,
+      "bed_Name": "07",
+      "bed_Status": "0",
+      "custom_Type": "我热我热温热",
+      "displayStatus": 0,
+      "displayType_Status": "破水，正在滴注催产素",
+      "puerpaer_Name": "小狐",
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 43,
+      "bed_Name": "07",
+      "bed_Status": "0",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "已临产，宫口2-3CM",
+      "puerpaer_Name": "新民",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 43,
+      "bed_Name": "07",
+      "bed_Status": "0",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "宫口未开，待产中",
+      "puerpaer_Name": "小李子",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 44,
+      "bed_Name": "08",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 45,
+      "bed_Name": "09",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 46,
+      "bed_Name": "10",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 47,
+      "bed_Name": "11",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 48,
+      "bed_Name": "12",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 49,
+      "bed_Name": "13",
+      "bed_Status": "0",
+      "custom_Type": "",
+      "displayStatus": 1,
+      "displayType_Status": "已临产，宫口7-9CM",
+      "puerpaer_Name": "历史",
+      "puerpaer_Status": 1
+    },
+    {
+      "bed_ID": 50,
+      "bed_Name": "14",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    },
+    {
+      "bed_ID": 51,
+      "bed_Name": "15",
+      "bed_Status": "1",
+      "displayStatus": 0,
+      "puerpaer_Status": 0
+    }
+  ]
+}

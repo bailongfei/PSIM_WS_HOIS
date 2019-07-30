@@ -1,0 +1,2 @@
+2019-07-23 06:37:46	设置立即生效{notetitle=请XXX到护士台, delayTime=3000, model=0, window=14, banWinNo=1,2,3,4,5,6,7,8,9,10,11,12, ledno=2, layoutY=100, layoutX=0, showTime=5000}
+

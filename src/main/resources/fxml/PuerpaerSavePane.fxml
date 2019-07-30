@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="perpaermessage" prefHeight="450.0" prefWidth="650.0" styleClass="puserRoot" stylesheets="@../css/PuerpaerMessagePane.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.PuerpaerSavePaneController">
+    <children>
+        <HBox layoutX="161.0" layoutY="109.0" prefHeight="45.0" prefWidth="328.0">
+            <children>
+                <Label  alignment="CENTER" prefHeight="45.0" prefWidth="110.0" styleClass="Puerpaerlabel2" text="年龄：" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="input2" prefHeight="45.0" prefWidth="220.0" promptText="请输入年龄" styleClass="puerpaertextField2">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox layoutX="161.0" layoutY="36.0" prefHeight="45.0" prefWidth="328.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="45.0" prefWidth="110.0" styleClass="Puerpaerlabel3" text="姓名：" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="input1" prefHeight="45.0" prefWidth="220.0" promptText="请输入姓名" styleClass="puerpaertextField3">
+                    <font>
+                        <Font size="20.0" />
+                    </font></TextField>
+            </children>
+        </HBox>
+        <HBox layoutX="161.0" layoutY="180.0" prefHeight="45.0" prefWidth="328.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="45.0" prefWidth="110.0" styleClass="Puerpaerlabel4" text="显示状态：" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="input3" prefHeight="45.0" prefWidth="220.0" styleClass="puerpaertextField4" />
+            </children></HBox>
+        <HBox layoutX="161.0" layoutY="250.0" prefHeight="60.0" prefWidth="328.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="60.0" prefWidth="110.0" styleClass="Puerpaerlabel5" text="自定义状态：" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="input4" prefHeight="60.0" prefWidth="220.0" promptText="默认显示以上状态，输入自定义状态，会显示自定义" styleClass="puerpaertextField5" wrapText="true">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </TextArea>
+            </children></HBox>
+        <Button fx:id="btnsave" layoutX="254.0" layoutY="350.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="143.0" styleClass="perpaerbedbutton1" text="保存" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

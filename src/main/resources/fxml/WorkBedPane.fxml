@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" styleClass="roombackgraup" stylesheets="@../css/WorkRoomPane.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.WorkBedController">
+   <children>
+      <VBox prefHeight="450.0" prefWidth="650.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="150.0" prefWidth="650.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="650.0">
+                     <children>
+                        <VBox fx:id="roombedvbox1" layoutX="14.0" layoutY="12.0" prefHeight="126.0" prefWidth="147.5" styleClass="bedroom1" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0" />
+                        <VBox fx:id="roombedvbox2" layoutX="171.0" layoutY="12.0" prefHeight="126.0" prefWidth="147.5" styleClass="bedroom2" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="12.0" />
+                        <VBox fx:id="roombedvbox3" layoutX="333.0" layoutY="12.0" prefHeight="126.0" prefWidth="147.5" styleClass="bedroom3" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="12.0" />
+                        <VBox fx:id="roombedvbox4" layoutX="488.0" layoutY="15.0" prefHeight="126.0" prefWidth="147.5" styleClass="bedroom4" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0" />
+                     </children>
+                  </AnchorPane>
+               </children></HBox>
+            <HBox prefHeight="150.0" prefWidth="650.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="650.0">
+                     <children>
+                        <VBox fx:id="roombedvbox5" layoutX="14.0" layoutY="9.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom5" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox6" layoutX="172.0" layoutY="19.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom6" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox7" layoutX="334.0" layoutY="12.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom7" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox8" layoutX="515.0" layoutY="14.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom8" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="6.0" />
+                     </children>
+                  </AnchorPane>
+               </children></HBox>
+            <HBox prefHeight="150.0" prefWidth="650.0">
+               <children>
+                  <AnchorPane prefHeight="150.0" prefWidth="650.0">
+                     <children>
+                        <VBox fx:id="roombedvbox9" layoutX="14.0" layoutY="9.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom5" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox10" layoutX="172.0" layoutY="19.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom6" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox11" layoutX="334.0" layoutY="12.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom7" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.topAnchor="6.0" />
+                        <VBox fx:id="roombedvbox12" layoutX="515.0" layoutY="14.0" prefHeight="126.0" prefWidth="147.6" styleClass="bedroom8" stylesheets="@../css/WorkRoomPane.css" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="6.0" />
+                     </children>
+                  </AnchorPane>
+               </children></HBox>
+            <AnchorPane prefHeight="50.0" prefWidth="650.0" stylesheets="@../css/WorkPane.css">
+               <children>
+                  <!--<Button id="gdsz" fx:id="gundongbtn" layoutX="543.0" layoutY="8.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" stylesheets="@../css/WorkPane.css" text="滚动设置" />-->
+                  <TextField fx:id="text1" disable="true" layoutX="64.0" layoutY="5.0" prefHeight="33.0" prefWidth="39.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <Label layoutX="14.0" layoutY="5.0" prefHeight="33.0" prefWidth="50.0" text="当前页:" />
+                  <Label layoutX="110.0" layoutY="5.0" prefHeight="33.0" prefWidth="31.0" text="总页:" />
+                  <TextField fx:id="text2" disable="true" layoutX="141.0" layoutY="6.0" prefHeight="33.0" prefWidth="50.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <Label fx:id="syla1" alignment="CENTER" layoutX="216.0" layoutY="5.0" onMouseClicked="#shouyes" prefHeight="34.0" prefWidth="39.0" styleClass="syla1" text="首页" textFill="WHITE" />
+                  <Label fx:id="syla2" alignment="CENTER" layoutX="277.0" layoutY="5.0" onMouseClicked="#shangyes" prefHeight="34.0" prefWidth="39.0" styleClass="syla2" text="上页" textFill="WHITE" />
+                  <Label fx:id="syla3" alignment="CENTER" layoutX="336.0" layoutY="5.0" onMouseClicked="#xiayes" prefHeight="34.0" prefWidth="39.0" styleClass="syla3" text="下页" textFill="WHITE" />
+                  <Label fx:id="syla4" alignment="CENTER" layoutX="399.0" layoutY="5.0" onMouseClicked="#weiyes" prefHeight="34.0" prefWidth="39.0" styleClass="syla4" text="尾页" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

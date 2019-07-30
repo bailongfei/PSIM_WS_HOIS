@@ -1,0 +1,30 @@
+.roomVBox{
+    -fx-background-color: rgb(67,157,68);
+    -fx-text-fill: white;
+}
+
+.roomVBox:hover{
+    -fx-background-color: rgb(126, 172, 23);
+    -fx-text-fill: white;
+}
+.roomStop{
+    -fx-background-color: rgb(197,73,38);
+    -fx-text-fill: white;
+}
+.roomStop:hover{
+    -fx-background-color: rgb(172, 119, 63);
+    -fx-text-fill: white;
+}
+.roombackgraup{
+    -fx-background-color: rgb(222, 219, 225);
+}
+.bedroom1,.bedroom2,.bedroom3,.bedroom4{
+    /*-fx-background-color: rgba(201, 95, 40, 0.85);*/
+    -fx-background-color: rgb(67,157,68);
+    -fx-text-fill: white;
+}
+.bedroom5,.bedroom6,.bedroom7,.bedroom8{
+    /*-fx-background-color: rgba(201, 95, 40, 0.85);*/
+    -fx-background-color: rgb(67,157,68);
+    -fx-text-fill: white;
+}

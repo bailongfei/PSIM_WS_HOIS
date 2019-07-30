@@ -1,0 +1,51 @@
+.puserRoot{
+    -fx-background-color: rgb(222, 219, 225);
+}
+.Puerpaerlabel1,.Puerpaerlabel2,.Puerpaerlabel3,.Puerpaerlabel4,.Puerpaerlabel5,.Puerpaerlabel6{
+    -fx-background-color: rgb(100, 137, 180);
+}
+.puerpaertextField1,.puerpaertextField2,.puerpaertextField3{
+    -fx-border-color: rgb(100, 137, 180);
+    -fx-text-fill: rgb(100, 137, 180);
+    -fx-font-size: 20px;
+}
+.puerpaertextField4{
+    -fx-border-color: rgb(100, 137, 180);
+    -fx-text-fill: rgb(100, 137, 180);
+    -fx-font-size: 13px;
+}
+.puerpaertextField5,.puerpaertextField6{
+    -fx-border-color: rgb(100, 137, 180);
+    -fx-text-fill: rgb(100, 137, 180);
+    -fx-font-size: 16px;
+}
+.perpaerbedbutton1,.perpaerbedbutton2,.perpaerbedbutton3,.perpaerbedbutton3 {
+    -fx-background-color: rgb(67,157,68);
+    -fx-text-fill: white;
+}
+
+.perpaerbedbutton1:hover {
+    -fx-background-color: rgb(171, 221, 24);
+    -fx-text-fill: white;
+}
+.perpaerbedbutton2:hover {
+    -fx-background-color: rgb(171, 221, 24);
+    -fx-text-fill: white;
+}
+.perpaerbedbutton3:hover {
+    -fx-background-color: rgb(171, 221, 24);
+    -fx-text-fill: white;
+}
+.perpaerbedbutton4 {
+    /*-fx-background-color: rgb(188, 50, 0);*/
+    -fx-background-color: linear-gradient(to right, #df1b33, #d4b41f); /*设置圆角*/
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}
+.perpaerbedbutton4:hover {
+    -fx-background-color: rgb(211, 0, 5);
+    -fx-text-fill: white;
+    -fx-background-radius: 100%;
+    -fx-border-radius: 100%;
+}

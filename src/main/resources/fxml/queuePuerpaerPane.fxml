@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="90.0" prefWidth="216.0" stylesheets="@../css/WorkRoomPane.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <AnchorPane fx:id="anchorPane1" prefHeight="80.0" prefWidth="216.6" styleClass="roomVBox" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="8.0">
+         <children>
+                <Label fx:id="roomlabel1" alignment="CENTER" layoutY="-6.0" prefHeight="31.0" prefWidth="107.0" text="房间号: A3201" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <Label fx:id="roomlabel2" alignment="CENTER" layoutX="107.0" layoutY="-6.0" prefHeight="31.0" prefWidth="82.0" text="床位号: 6" textFill="WHITE">
+                    <font>
+                        <Font size="15.0" />
+                    </font></Label>
+                <Label fx:id="roomlabel4" alignment="CENTER" layoutX="2.0" layoutY="23.0" prefHeight="24.0" prefWidth="197.0" text="姓名: 张三" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font></Label>
+            <Label fx:id="roomlabel3" disable="true" layoutX="194.0" layoutY="2.0" opacity="0.0" prefHeight="24.0" prefWidth="7.0" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="roomlabel5" alignment="TOP_LEFT" layoutX="1.0" layoutY="45.0" prefHeight="31.0" prefWidth="204.0" text="状态:" textFill="#dfff00" wrapText="true" />
+            <Label fx:id="roomlabel6" alignment="CENTER" layoutX="164.0" layoutY="23.0" prefHeight="24.0" prefWidth="41.0" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</fx:root>

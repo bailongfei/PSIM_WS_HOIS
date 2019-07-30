@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="backagecolock" prefHeight="384.0" prefWidth="378.0" styleClass="backagecolock" stylesheets="@../css/LoginPane.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controller.LoginPaneController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="14.0" prefHeight="266.0" prefWidth="359.0" styleClass="imageAnchorpane2" stylesheets="@../css/LoginPane.css" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="117.0" layoutX="14.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="64.0">
+               <image>
+                  <Image url="@../static/form.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="staffIdTextField" layoutX="143.0" layoutY="73.0" prefHeight="31.0" prefWidth="181.0" promptText="输入账号">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <PasswordField fx:id="staffPasswordField" layoutX="143.0" layoutY="145.0" prefHeight="36.0" prefWidth="181.0" promptText="输入密码">
+               <font>
+                  <Font size="18.0" />
+               </font></PasswordField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="225.0" layoutY="297.0" prefHeight="102.0" prefWidth="363.0" styleClass="imageAnchorpane3" stylesheets="@../css/LoginPane.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="99.0" layoutX="233.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../static/login.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="62.0" layoutY="15.0" prefHeight="83.0" prefWidth="117.0" text="登录">
+               <font>
+                  <Font size="56.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="loginButtonPane" layoutX="212.0" layoutY="267.0" prefHeight="102.0" prefWidth="363.0" styleClass="loginButtonCover" stylesheets="@../css/LoginPane.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
